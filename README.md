@@ -1,6 +1,6 @@
-# Project Knowledge & Publishing Pipeline
+# Project Knowledge & Publishing Pipeline Skill
 
-An opt-in Codex Skill that records useful engineering evidence while you build, then turns it into local drafts for GitHub, Obsidian, a technical blog, and short-video source material. Its display name is **Project Knowledge & Publishing Pipeline**.
+An opt-in Codex Skill that records useful engineering evidence while you build, then turns it into local drafts for GitHub, Obsidian, a technical blog, and short-video source material. The GitHub repository name identifies it as a Skill; the invocation name remains `$project-knowledge-pipeline`.
 
 **Capture once, transform many times, publish selectively.** The Skill does not publish anything, create a GitHub repository, or send project records to a service. Normal coding requests leave it off.
 
@@ -28,9 +28,9 @@ The Python helper performs deterministic file and state operations. Codex decide
 Clone this repository, then copy the Skill directory into a user-level Skills location. The current [Codex documentation](https://learn.chatgpt.com/docs/build-skills) lists `~/.agents/skills`; this project's original local installation uses `~/.codex/skills` and has been discovered by Codex there.
 
 ```bash
-git clone https://github.com/amorelove99/project-knowledge-pipeline.git
+git clone https://github.com/amorelove99/project-knowledge-pipeline-skill.git
 mkdir -p ~/.agents/skills
-cp -R project-knowledge-pipeline/project-knowledge-pipeline ~/.agents/skills/
+cp -R project-knowledge-pipeline-skill/project-knowledge-pipeline ~/.agents/skills/
 ```
 
 If Codex does not show the Skill after installation, restart Codex. To update it later, pull this repository and replace the installed `project-knowledge-pipeline` folder with the reviewed new version. Keep the source repository and installed copy in sync.

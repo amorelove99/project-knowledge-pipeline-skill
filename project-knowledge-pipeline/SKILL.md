@@ -7,7 +7,7 @@ description: >-
   .project-knowledge/ACTIVE marker. Ignore it for ordinary coding tasks.
 ---
 
-# Project Knowledge & Publishing Pipeline
+# Project Knowledge & Publishing Pipeline Skill
 
 Normal development is the primary task. There are only inactive and active states. Do not create pipeline files for ordinary requests. Activate after planning, before implementation, unless the user requests mid-project capture or reconstruction. Do not generate outputs during coding.
 

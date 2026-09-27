@@ -5,3 +5,4 @@
 - Use Python standard library and Markdown files; no service, database, network API, or publishing integration is needed for V1.
 - Generate drafts from recorded evidence. Codex reviews semantic claims before calling them finished; a script cannot prove deployment or infer undocumented failures.
 - Keep the installed package separate from this source repository, then refresh it after validation.
+- Name the public repository `project-knowledge-pipeline-skill` and include “Skill” in the display title. Keep the invocation ID `project-knowledge-pipeline` stable for existing users.
