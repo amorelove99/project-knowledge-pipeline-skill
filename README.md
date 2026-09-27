@@ -28,7 +28,7 @@ The Python helper performs deterministic file and state operations. Codex decide
 Clone this repository, then copy the Skill directory into a user-level Skills location. The current [Codex documentation](https://learn.chatgpt.com/docs/build-skills) lists `~/.agents/skills`; this project's original local installation uses `~/.codex/skills` and has been discovered by Codex there.
 
 ```bash
-git clone https://github.com/quqbaku/project-knowledge-pipeline.git
+git clone https://github.com/amorelove99/project-knowledge-pipeline.git
 mkdir -p ~/.agents/skills
 cp -R project-knowledge-pipeline/project-knowledge-pipeline ~/.agents/skills/
 ```
