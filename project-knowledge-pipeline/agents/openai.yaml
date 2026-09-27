@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Knowledge & Publishing Pipeline"
+  short_description: "Capture project evidence and draft reusable outputs"
+  default_prompt: "Use $project-knowledge-pipeline to start recording this project's real implementation work."
